@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RenessansAPI.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0dfbfd9d41a264aa3f9e6900423d65c0265f40b2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c792ea72bee2720a40c3febcae002a5086ed0782")]
 [assembly: System.Reflection.AssemblyProductAttribute("RenessansAPI.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RenessansAPI.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
