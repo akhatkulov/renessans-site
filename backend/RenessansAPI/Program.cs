@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.TestPlatform.CoreUtilities.Helpers;
 using RenessansAPI.DataAccess.AppDBContexts;
+using RenessansAPI.Middlewares;
 using System;
 using System.Text.Json.Serialization;
 
@@ -47,6 +48,9 @@ app.UseHttpsRedirection();
 app.UseRouting();
 
 app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+
+app.UseMiddleware<ExceptionHandlerMiddleWare>();
+app.UseMiddleware<TokenValidationMiddleware>();
 
 app.UseAuthentication();
 app.UseAuthorization();
