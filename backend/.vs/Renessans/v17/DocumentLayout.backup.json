@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|solutionrelative:renessansapi.service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A3B8B2-AB0A-4263-8DF0-DAE76AD12FB1}|RenessansAPI.DataAccess\\RenessansAPI.DataAccess.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.dataaccess\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A3B8B2-AB0A-4263-8DF0-DAE76AD12FB1}|RenessansAPI.DataAccess\\RenessansAPI.DataAccess.csproj|solutionrelative:renessansapi.dataaccess\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD3A1977-668C-4D14-A59F-288AC9963DC2}|RenessansAPI\\RenessansAPI.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD3A1977-668C-4D14-A59F-288AC9963DC2}|RenessansAPI\\RenessansAPI.csproj|solutionrelative:renessansapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711C46E-AC5D-4C11-973E-3D270BBECEB0}|RenessansAPI.Domain\\RenessansAPI.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711C46E-AC5D-4C11-973E-3D270BBECEB0}|RenessansAPI.Domain\\RenessansAPI.Domain.csproj|solutionrelative:renessansapi.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Class1.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\Class1.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Class1.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T08:21:52.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.DataAccess\\Class1.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.DataAccess\\Class1.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.DataAccess\\Class1.cs",
+              "RelativeToolTip": "RenessansAPI.DataAccess\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T08:21:31.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Program.cs",
+              "RelativeDocumentMoniker": "RenessansAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Program.cs",
+              "RelativeToolTip": "RenessansAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T08:20:54.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Class1.cs",
+              "RelativeToolTip": "RenessansAPI.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T08:20:46.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
