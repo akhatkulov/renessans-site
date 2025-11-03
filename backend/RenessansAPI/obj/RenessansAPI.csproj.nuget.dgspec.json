@@ -181,7 +181,14 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.DataAccess\\RenessansAPI.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.DataAccess\\RenessansAPI.DataAccess.csproj"
+              },
+              "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\RenessansAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\RenessansAPI.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -199,6 +206,20 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[15.1.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -293,6 +314,14 @@
             "Microsoft.TestPlatform.ObjectModel": {
               "target": "Package",
               "version": "[18.0.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
