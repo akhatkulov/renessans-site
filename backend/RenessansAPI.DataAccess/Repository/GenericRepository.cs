@@ -1,11 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using RenessansAPI.DataAccess.AppDBContexts;
+using RenessansAPI.DataAccess.IRepository;
 using RenessansAPI.Domain.Common;
 using System.Linq.Expressions;
 
 namespace RenessansAPI.DataAccess.Repository;
 
-public class GenericRepository<T> where T : Auditable
+public class GenericRepository<T> : IGenericRepository<T> where T : Auditable
 {
     private readonly AppDbContext dbContext;
     private readonly DbSet<T> dbSet;
