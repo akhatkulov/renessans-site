@@ -1,12 +1,28 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using RenessansAPI.DataAccess.IRepository;
+using RenessansAPI.DataAccess.Repository;
+using RenessansAPI.Service.IService;
+using RenessansAPI.Service.Service;
 using System.Text;
 
 namespace RenessansAPI.Extensions;
 
 public static class ServiceExtension
 {
+    public static void AddServices(this IServiceCollection services)
+    {
+        services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+
+        //Service
+        services.AddScoped<IAuthService, AuthService>();
+        services.AddScoped<IUserService, UserService>();
+        services.AddScoped<IRoleService, RoleService>();
+        services.AddScoped<IPermissionService, PermissionService>();
+        services.AddScoped<ITokenService, TokenService>();
+    }
+
     public static void AddJwtService(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddAuthentication(x =>
