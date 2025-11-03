@@ -102,7 +102,7 @@ public static class DbSeeder
                 LastName = "Admin",
                 UserName = "Admin",
                 Email = "bekhzodkeldiyorov@gmail.com",
-                Password = "tV0N2Oq4xCnPhciMVH",
+                Password = "tV0N2Oq4xCnPhciMVH", 
                 UserStatus = UserStatus.active,
                 RolesId = roleId
             };
