@@ -28,5 +28,5 @@ public class EnumController : ControllerBase
             });
 
         return Ok(values);
-    }\
+    }
 }
