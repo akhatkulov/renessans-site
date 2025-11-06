@@ -159,6 +159,7 @@ public class RoleService : IRoleService
             throw new HttpStatusCodeException(409, "Cannot delete a role that is assigned to users");
 
         role.DeletedBy = HttpContextHelper.UserId ?? Guid.Empty;
+        role.DeletedAt = DateTime.UtcNow;
 
         await _repository.DeleteAsync(role);
         await _repository.SaveChangesAsync();

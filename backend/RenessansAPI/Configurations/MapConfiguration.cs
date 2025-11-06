@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using RenessansAPI.Domain.Entities.Auth;
+using RenessansAPI.Domain.Entities.News.AboutCamps;
 using RenessansAPI.Domain.Entities.Users;
+using RenessansAPI.Service.DTOs.NewsDto.AboutCampsDto;
 using RenessansAPI.Service.DTOs.PermissionsDto;
 using RenessansAPI.Service.DTOs.RolesDto;
 using RenessansAPI.Service.DTOs.TokensDto;
@@ -41,5 +43,11 @@ public class MapConfiguration : Profile
         CreateMap<TokenForCreationDto, Token>().ReverseMap();
         CreateMap<TokenForUpdateDto, Token>().ReverseMap();
         CreateMap<TokenForViewDto, Token>().ReverseMap();
+
+        //AboutCamp
+        CreateMap<CampForCreationDto, AbtCamp>().ReverseMap();
+        CreateMap<CampForUpdateDto, AbtCamp>().ReverseMap();
+        CreateMap<CampForViewDto, AbtCamp>().ReverseMap();
+
     }
 }

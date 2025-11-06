@@ -59,10 +59,14 @@ public class PermissionService : IPermissionService
     public async Task<bool> DeleteAsync(Expression<Func<Permission, bool>> filter)
     {
         var permission = await _repository.GetAsync(filter, includes: ["Roles"]);
-        if (permission == null && permission.Roles.Count != 0)
-            throw new HttpStatusCodeException(404, "Permission not found or permission is not empty");
+        if (permission == null)
+            throw new HttpStatusCodeException(404, "Permission not found");
+
+        if (permission.Roles != null && permission.Roles.Count > 0)
+            throw new HttpStatusCodeException(400, "Permission cannot be deleted because it is assigned to roles");
 
         permission.DeletedBy = HttpContextHelper.UserId;
+        permission.DeletedAt = DateTime.UtcNow;
         await _repository.DeleteAsync(permission);
         await _repository.SaveChangesAsync();
         return true;
