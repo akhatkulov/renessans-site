@@ -103,7 +103,7 @@ public static class DbSeeder
                 UserName = "Admin",
                 Email = "bekhzodkeldiyorov@gmail.com",
                 Password = "tV0N2Oq4xCnPhciMVH", 
-                UserStatus = UserStatus.active,
+                UserStatus = UserStatus.Active,
                 RolesId = roleId
             };
 

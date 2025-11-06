@@ -120,6 +120,7 @@ public class UserService : IUserService
         }
 
         res.DeletedBy = HttpContextHelper.UserId;
+        res.DeletedAt = DateTime.UtcNow;
 
         await _repository.DeleteAsync(res);
         await _repository.SaveChangesAsync();

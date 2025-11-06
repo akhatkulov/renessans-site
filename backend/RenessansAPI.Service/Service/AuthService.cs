@@ -44,7 +44,7 @@ public class AuthService : IAuthService
 
     public async ValueTask<TokenForViewDto> GenerateToken(string Username, string password)
     {
-        var user = await _userRepository.GetAsync(p => p.Email == Username && p.UserStatus == UserStatus.active)
+        var user = await _userRepository.GetAsync(p => p.Email == Username && p.UserStatus == UserStatus.Active)
                    ?? throw new HttpStatusCodeException(400, "Login or Password is incorrect");
 
         var res = await _roleRepository.GetAsync(p => p.Id == user.RolesId, includes: ["Permissions"]);
@@ -146,7 +146,7 @@ public class AuthService : IAuthService
                 throw new HttpStatusCodeException(400, "Token not found");
             }
 
-            var user = await _userRepository.GetAsync(p => p.Id == getToken.UsersId && p.UserStatus == UserStatus.active)
+            var user = await _userRepository.GetAsync(p => p.Id == getToken.UsersId && p.UserStatus == UserStatus.Active)
                    ?? throw new HttpStatusCodeException(400, "User not found");
 
             var res = await _roleRepository.GetAsync(p => p.Id == user.RolesId, includes: ["Permissions"])

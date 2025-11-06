@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 using Microsoft.VisualStudio.TestPlatform.CoreUtilities.Helpers;
 using RenessansAPI.DataAccess.AppDBContexts;
 using RenessansAPI.Extensions;
@@ -12,6 +13,7 @@ using System.Text.Json.Serialization;
 using EnvironmentHelper = RenessansAPI.Service.Helpers.EnvironmentHelper;
 
 var builder = WebApplication.CreateBuilder(args);
+var env = builder.Environment;
 
 // Services
 builder.Services.AddServices();
@@ -106,8 +108,19 @@ app.UseRouting();
 
 app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 EnvironmentHelper.WebRootPath = app.Services.GetRequiredService<IWebHostEnvironment>().WebRootPath;
+EnvironmentHelper.WebRootPath =
+    Environment.GetEnvironmentVariable("WEB_ROOT_PATH")
+    ?? (env.WebRootPath ?? Path.Combine(env.ContentRootPath, "wwwroot"));
+Directory.CreateDirectory(EnvironmentHelper.WebRootPath);
 
 app.UseMiddleware<ExceptionHandlerMiddleWare>();
+app.UseStaticFiles();
+app.UseStaticFiles(new StaticFileOptions
+{
+    RequestPath = "/images",
+    FileProvider = new PhysicalFileProvider(
+        Path.Combine(app.Environment.WebRootPath, "images"))
+});
 app.UseMiddleware<TokenValidationMiddleware>();
 
 app.UseAuthentication();

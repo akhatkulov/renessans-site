@@ -2,7 +2,7 @@
 
 public enum UserStatus
 {
-    active,
-    blocked,
-    deleted
+    Active,
+    Blocked,
+    Deleted
 }

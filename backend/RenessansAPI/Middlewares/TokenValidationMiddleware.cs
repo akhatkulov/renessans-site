@@ -20,7 +20,8 @@ public class TokenValidationMiddleware
             "/api/auth/login",
             "/api/auth/register",
             "/api/public/health",
-            "/api/auth/refreshtoken"
+            "/api/auth/refreshtoken",
+            "/api/camp"
 
         };
 

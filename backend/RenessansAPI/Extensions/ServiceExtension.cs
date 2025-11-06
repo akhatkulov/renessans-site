@@ -21,6 +21,7 @@ public static class ServiceExtension
         services.AddScoped<IRoleService, RoleService>();
         services.AddScoped<IPermissionService, PermissionService>();
         services.AddScoped<ITokenService, TokenService>();
+        services.AddScoped<ICampService, CampService>();
     }
 
     public static void AddJwtService(this IServiceCollection services, IConfiguration configuration)

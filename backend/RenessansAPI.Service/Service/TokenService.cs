@@ -3,6 +3,7 @@ using RenessansAPI.DataAccess.IRepository;
 using RenessansAPI.Domain.Entities.Auth;
 using RenessansAPI.Service.DTOs.TokensDto;
 using RenessansAPI.Service.Exceptions;
+using RenessansAPI.Service.Helpers;
 using RenessansAPI.Service.IService;
 using System.Linq.Expressions;
 
@@ -91,6 +92,9 @@ public class TokenService : ITokenService
     {
         var token = await tokenRepository.GetAsync(filter)
             ?? throw new HttpStatusCodeException(404, "Token not found");
+
+        token.DeletedBy = HttpContextHelper.UserId ?? Guid.Empty;
+        token.DeletedAt = DateTime.UtcNow;
 
         await tokenRepository.DeleteAsync(token);
         await tokenRepository.SaveChangesAsync();

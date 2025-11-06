@@ -25,4 +25,8 @@
     <ProjectReference Include="..\RenessansAPI.Service\RenessansAPI.Service.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\camp\" />
+  </ItemGroup>
+
 </Project>
