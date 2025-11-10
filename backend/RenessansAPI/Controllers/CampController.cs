@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using RenessansAPI.Domain.Configurations;
 using RenessansAPI.Service.DTOs.NewsDto.AboutCampsDto;
 using RenessansAPI.Service.IService;
+using RenessansAPI.Service.Service;
 
 namespace RenessansAPI.Controllers;
 
@@ -18,11 +20,8 @@ public class CampController : ControllerBase
 
     [HttpGet]
     [AllowAnonymous]
-    public async Task<IActionResult> GetAllAsync()
-    {
-        var result = await service.GetAllAsync();
-        return Ok(result);
-    }
+    public async ValueTask<IActionResult> GetAllAsync([FromQuery] PaginationParams @params)
+        => Ok(await service.GetAllAsync(@params));
 
     // GET: api/Course/{id}
     [HttpGet("{id:guid}")]

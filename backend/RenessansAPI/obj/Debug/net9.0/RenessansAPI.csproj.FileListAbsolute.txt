@@ -187,3 +187,4 @@ C:\Users\User\OneDrive\Desktop\All\All Programms\CRUD\ProProj\Renessans\backend\
 C:\Users\User\OneDrive\Desktop\All\All Programms\CRUD\ProProj\Renessans\backend\RenessansAPI\obj\Debug\net9.0\RenessansAPI.pdb
 C:\Users\User\OneDrive\Desktop\All\All Programms\CRUD\ProProj\Renessans\backend\RenessansAPI\obj\Debug\net9.0\RenessansAPI.genruntimeconfig.cache
 C:\Users\User\OneDrive\Desktop\All\All Programms\CRUD\ProProj\Renessans\backend\RenessansAPI\obj\Debug\net9.0\ref\RenessansAPI.dll
+C:\Users\User\OneDrive\Desktop\All\All Programms\CRUD\ProProj\Renessans\backend\RenessansAPI\bin\Debug\net9.0\System.Linq.Dynamic.Core.dll

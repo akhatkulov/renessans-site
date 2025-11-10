@@ -3,6 +3,58 @@
   "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AD3A1977-668C-4D14-A59F-288AC9963DC2}|RenessansAPI\\RenessansAPI.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AD3A1977-668C-4D14-A59F-288AC9963DC2}|RenessansAPI\\RenessansAPI.csproj|solutionrelative:renessansapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD3A1977-668C-4D14-A59F-288AC9963DC2}|RenessansAPI\\RenessansAPI.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi\\controllers\\campcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD3A1977-668C-4D14-A59F-288AC9963DC2}|RenessansAPI\\RenessansAPI.csproj|solutionrelative:renessansapi\\controllers\\campcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.DataAccess\\Migrations\\20251110094344_InitialCreate3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RenessansAPI.DataAccess\\Migrations\\20251110094344_InitialCreate3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.service\\service\\campservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|solutionrelative:renessansapi.service\\service\\campservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.service\\extensions\\collectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|solutionrelative:renessansapi.service\\extensions\\collectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.service\\iservice\\icampservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|solutionrelative:renessansapi.service\\iservice\\icampservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711C46E-AC5D-4C11-973E-3D270BBECEB0}|RenessansAPI.Domain\\RenessansAPI.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.domain\\configurations\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711C46E-AC5D-4C11-973E-3D270BBECEB0}|RenessansAPI.Domain\\RenessansAPI.Domain.csproj|solutionrelative:renessansapi.domain\\configurations\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711C46E-AC5D-4C11-973E-3D270BBECEB0}|RenessansAPI.Domain\\RenessansAPI.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.domain\\configurations\\paginationparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711C46E-AC5D-4C11-973E-3D270BBECEB0}|RenessansAPI.Domain\\RenessansAPI.Domain.csproj|solutionrelative:renessansapi.domain\\configurations\\paginationparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.service\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|solutionrelative:renessansapi.service\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.service\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|solutionrelative:renessansapi.service\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.service\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|solutionrelative:renessansapi.service\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.service\\seeders\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|solutionrelative:renessansapi.service\\seeders\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711C46E-AC5D-4C11-973E-3D270BBECEB0}|RenessansAPI.Domain\\RenessansAPI.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.domain\\entities\\news\\aboutcamps\\abtcamp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711C46E-AC5D-4C11-973E-3D270BBECEB0}|RenessansAPI.Domain\\RenessansAPI.Domain.csproj|solutionrelative:renessansapi.domain\\entities\\news\\aboutcamps\\abtcamp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AD3A1977-668C-4D14-A59F-288AC9963DC2}|RenessansAPI\\RenessansAPI.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi\\middlewares\\tokenvalidationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD3A1977-668C-4D14-A59F-288AC9963DC2}|RenessansAPI\\RenessansAPI.csproj|solutionrelative:renessansapi\\middlewares\\tokenvalidationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +63,12 @@
       "RelativeMoniker": "D:0:0:{AD3A1977-668C-4D14-A59F-288AC9963DC2}|RenessansAPI\\RenessansAPI.csproj|solutionrelative:renessansapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD3A1977-668C-4D14-A59F-288AC9963DC2}|RenessansAPI\\RenessansAPI.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi\\controllers\\campcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD3A1977-668C-4D14-A59F-288AC9963DC2}|RenessansAPI\\RenessansAPI.csproj|solutionrelative:renessansapi\\controllers\\campcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD3A1977-668C-4D14-A59F-288AC9963DC2}|RenessansAPI\\RenessansAPI.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi\\configurations\\mapconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD3A1977-668C-4D14-A59F-288AC9963DC2}|RenessansAPI\\RenessansAPI.csproj|solutionrelative:renessansapi\\configurations\\mapconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.DataAccess\\Migrations\\20251106141151_InitialCreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RenessansAPI.DataAccess\\Migrations\\20251106141151_InitialCreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD3A1977-668C-4D14-A59F-288AC9963DC2}|RenessansAPI\\RenessansAPI.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi\\extensions\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD3A1977-668C-4D14-A59F-288AC9963DC2}|RenessansAPI\\RenessansAPI.csproj|solutionrelative:renessansapi\\extensions\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.service\\service\\campservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|solutionrelative:renessansapi.service\\service\\campservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.service\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -36,18 +76,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.service\\seeders\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|solutionrelative:renessansapi.service\\seeders\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.service\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|solutionrelative:renessansapi.service\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.service\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|solutionrelative:renessansapi.service\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.service\\service\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,10 +90,6 @@
       "RelativeMoniker": "D:0:0:{B711C46E-AC5D-4C11-973E-3D270BBECEB0}|RenessansAPI.Domain\\RenessansAPI.Domain.csproj|solutionrelative:renessansapi.domain\\common\\auditable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.service\\iservice\\icampservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|solutionrelative:renessansapi.service\\iservice\\icampservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.service\\dtos\\newsdto\\aboutcampsdto\\campforviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|solutionrelative:renessansapi.service\\dtos\\newsdto\\aboutcampsdto\\campforviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -76,10 +100,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.service\\dtos\\newsdto\\aboutcampsdto\\campforcreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|solutionrelative:renessansapi.service\\dtos\\newsdto\\aboutcampsdto\\campforcreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B711C46E-AC5D-4C11-973E-3D270BBECEB0}|RenessansAPI.Domain\\RenessansAPI.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.domain\\entities\\news\\aboutcamps\\abtcamp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B711C46E-AC5D-4C11-973E-3D270BBECEB0}|RenessansAPI.Domain\\RenessansAPI.Domain.csproj|solutionrelative:renessansapi.domain\\entities\\news\\aboutcamps\\abtcamp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18A3B8B2-AB0A-4263-8DF0-DAE76AD12FB1}|RenessansAPI.DataAccess\\RenessansAPI.DataAccess.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.dataaccess\\appdbcontexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -150,10 +170,6 @@
       "RelativeMoniker": "D:0:0:{AD3A1977-668C-4D14-A59F-288AC9963DC2}|RenessansAPI\\RenessansAPI.csproj|solutionrelative:renessansapi\\controllers\\enumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD3A1977-668C-4D14-A59F-288AC9963DC2}|RenessansAPI\\RenessansAPI.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AD3A1977-668C-4D14-A59F-288AC9963DC2}|RenessansAPI\\RenessansAPI.csproj|solutionrelative:renessansapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD3A1977-668C-4D14-A59F-288AC9963DC2}|RenessansAPI\\RenessansAPI.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD3A1977-668C-4D14-A59F-288AC9963DC2}|RenessansAPI\\RenessansAPI.csproj|solutionrelative:renessansapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -198,10 +214,6 @@
       "RelativeMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|solutionrelative:renessansapi.service\\iservice\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.service\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|solutionrelative:renessansapi.service\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.service\\dtos\\rolesdto\\roleforcreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444858F4-43D0-45C4-A852-A71A0C70FEFD}|RenessansAPI.Service\\RenessansAPI.Service.csproj|solutionrelative:renessansapi.service\\dtos\\rolesdto\\roleforcreationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -244,6 +256,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{18A3B8B2-AB0A-4263-8DF0-DAE76AD12FB1}|RenessansAPI.DataAccess\\RenessansAPI.DataAccess.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.dataaccess\\migrations\\20251028092153_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18A3B8B2-AB0A-4263-8DF0-DAE76AD12FB1}|RenessansAPI.DataAccess\\RenessansAPI.DataAccess.csproj|solutionrelative:renessansapi.dataaccess\\migrations\\20251028092153_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A3B8B2-AB0A-4263-8DF0-DAE76AD12FB1}|RenessansAPI.DataAccess\\RenessansAPI.DataAccess.csproj|c:\\users\\user\\onedrive\\desktop\\all\\all programms\\crud\\proproj\\renessans\\backend\\renessansapi.dataaccess\\migrations\\20251106141151_initialcreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A3B8B2-AB0A-4263-8DF0-DAE76AD12FB1}|RenessansAPI.DataAccess\\RenessansAPI.DataAccess.csproj|solutionrelative:renessansapi.dataaccess\\migrations\\20251106141151_initialcreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -264,641 +280,59 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "20251106141151_InitialCreate2.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.DataAccess\\Migrations\\20251106141151_InitialCreate2.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.DataAccess\\Migrations\\20251106141151_InitialCreate2.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.DataAccess\\Migrations\\20251106141151_InitialCreate2.cs",
-              "RelativeToolTip": "RenessansAPI.DataAccess\\Migrations\\20251106141151_InitialCreate2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Extensions\\CollectionExtensions.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\Extensions\\CollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Extensions\\CollectionExtensions.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\Extensions\\CollectionExtensions.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwB8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T14:11:51.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CampController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Controllers\\CampController.cs",
-              "RelativeDocumentMoniker": "RenessansAPI\\Controllers\\CampController.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Controllers\\CampController.cs",
-              "RelativeToolTip": "RenessansAPI\\Controllers\\CampController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T14:03:45.798Z",
+              "WhenOpened": "2025-11-10T09:15:54.834Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "CampService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Service\\CampService.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Service\\Service\\CampService.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Service\\CampService.cs",
-              "RelativeToolTip": "RenessansAPI.Service\\Service\\CampService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Configurations\\PagedResult.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Domain\\Configurations\\PagedResult.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Configurations\\PagedResult.cs",
+              "RelativeToolTip": "RenessansAPI.Domain\\Configurations\\PagedResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T13:27:54.643Z",
+              "WhenOpened": "2025-11-10T09:09:41.204Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Service\\AuthService.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Service\\Service\\AuthService.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Service\\AuthService.cs",
-              "RelativeToolTip": "RenessansAPI.Service\\Service\\AuthService.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAYwEQAAAA/AAAAAAAAAA==",
+              "Title": "PaginationParams.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Configurations\\PaginationParams.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Domain\\Configurations\\PaginationParams.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Configurations\\PaginationParams.cs",
+              "RelativeToolTip": "RenessansAPI.Domain\\Configurations\\PaginationParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:39:28.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MapConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Configurations\\MapConfiguration.cs",
-              "RelativeDocumentMoniker": "RenessansAPI\\Configurations\\MapConfiguration.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Configurations\\MapConfiguration.cs",
-              "RelativeToolTip": "RenessansAPI\\Configurations\\MapConfiguration.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAQwDEAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T09:25:57.678Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TokenValidationMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Middlewares\\TokenValidationMiddleware.cs",
-              "RelativeDocumentMoniker": "RenessansAPI\\Middlewares\\TokenValidationMiddleware.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Middlewares\\TokenValidationMiddleware.cs*",
-              "RelativeToolTip": "RenessansAPI\\Middlewares\\TokenValidationMiddleware.cs*",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBcAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T09:30:33.821Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ServiceExtension.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Extensions\\ServiceExtension.cs",
-              "RelativeDocumentMoniker": "RenessansAPI\\Extensions\\ServiceExtension.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Extensions\\ServiceExtension.cs",
-              "RelativeToolTip": "RenessansAPI\\Extensions\\ServiceExtension.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T09:16:27.546Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Program.cs",
-              "RelativeDocumentMoniker": "RenessansAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Program.cs",
-              "RelativeToolTip": "RenessansAPI\\Program.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHsAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T09:02:45.762Z",
+              "WhenOpened": "2025-11-10T09:09:26.481Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAAAMKAAAAAAAAAAAwwIAJAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-11-06T13:57:06.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Service\\UserService.cs",
               "RelativeDocumentMoniker": "RenessansAPI.Service\\Service\\UserService.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Service\\UserService.cs",
               "RelativeToolTip": "RenessansAPI.Service\\Service\\UserService.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAmwHoAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwEMAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:07:52.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Service\\TokenService.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Service\\Service\\TokenService.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Service\\TokenService.cs",
-              "RelativeToolTip": "RenessansAPI.Service\\Service\\TokenService.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAqwGAAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:43:00.934Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RoleService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Service\\RoleService.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Service\\Service\\RoleService.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Service\\RoleService.cs",
-              "RelativeToolTip": "RenessansAPI.Service\\Service\\RoleService.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAuwKEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:19:10.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PermissionService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Service\\PermissionService.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Service\\Service\\PermissionService.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Service\\PermissionService.cs",
-              "RelativeToolTip": "RenessansAPI.Service\\Service\\PermissionService.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAmwEQAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:20:26.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Auditable.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Common\\Auditable.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Domain\\Common\\Auditable.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Common\\Auditable.cs",
-              "RelativeToolTip": "RenessansAPI.Domain\\Common\\Auditable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T08:49:04.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ICampService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\IService\\ICampService.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Service\\IService\\ICampService.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\IService\\ICampService.cs",
-              "RelativeToolTip": "RenessansAPI.Service\\IService\\ICampService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T13:23:03.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T10:07:52.785Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "DbSeeder.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Seeders\\DbSeeder.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Service\\Seeders\\DbSeeder.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Seeders\\DbSeeder.cs",
-              "RelativeToolTip": "RenessansAPI.Service\\Seeders\\DbSeeder.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAkwGkAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:14:57.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CampForViewDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\NewsDto\\AboutCampsDto\\CampForViewDto.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\NewsDto\\AboutCampsDto\\CampForViewDto.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\NewsDto\\AboutCampsDto\\CampForViewDto.cs",
-              "RelativeToolTip": "RenessansAPI.Service\\DTOs\\NewsDto\\AboutCampsDto\\CampForViewDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T13:19:19.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CampForUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\NewsDto\\AboutCampsDto\\CampForUpdateDto.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\NewsDto\\AboutCampsDto\\CampForUpdateDto.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\NewsDto\\AboutCampsDto\\CampForUpdateDto.cs",
-              "RelativeToolTip": "RenessansAPI.Service\\DTOs\\NewsDto\\AboutCampsDto\\CampForUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T13:16:38.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CampForCreationDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\NewsDto\\AboutCampsDto\\CampForCreationDto.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\NewsDto\\AboutCampsDto\\CampForCreationDto.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\NewsDto\\AboutCampsDto\\CampForCreationDto.cs",
-              "RelativeToolTip": "RenessansAPI.Service\\DTOs\\NewsDto\\AboutCampsDto\\CampForCreationDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T13:16:08.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AbtCamp.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Entities\\News\\AboutCamps\\AbtCamp.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Domain\\Entities\\News\\AboutCamps\\AbtCamp.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Entities\\News\\AboutCamps\\AbtCamp.cs",
-              "RelativeToolTip": "RenessansAPI.Domain\\Entities\\News\\AboutCamps\\AbtCamp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T10:24:16.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "PermissionForViewDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\PermissionsDto\\PermissionForViewDto.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\PermissionsDto\\PermissionForViewDto.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\PermissionsDto\\PermissionForViewDto.cs",
-              "RelativeToolTip": "RenessansAPI.Service\\DTOs\\PermissionsDto\\PermissionForViewDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T09:51:25.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "PermissionForUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\PermissionsDto\\PermissionForUpdateDto.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\PermissionsDto\\PermissionForUpdateDto.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\PermissionsDto\\PermissionForUpdateDto.cs",
-              "RelativeToolTip": "RenessansAPI.Service\\DTOs\\PermissionsDto\\PermissionForUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T09:48:32.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IPermissionService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\IService\\IPermissionService.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Service\\IService\\IPermissionService.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\IService\\IPermissionService.cs",
-              "RelativeToolTip": "RenessansAPI.Service\\IService\\IPermissionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:17:12.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.DataAccess\\AppDBContexts\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.DataAccess\\AppDBContexts\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.DataAccess\\AppDBContexts\\AppDbContext.cs",
-              "RelativeToolTip": "RenessansAPI.DataAccess\\AppDBContexts\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T08:57:45.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "PermissionForCreationDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\PermissionsDto\\PermissionForCreationDto.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\PermissionsDto\\PermissionForCreationDto.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\PermissionsDto\\PermissionForCreationDto.cs",
-              "RelativeToolTip": "RenessansAPI.Service\\DTOs\\PermissionsDto\\PermissionForCreationDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T09:48:03.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "UserStatus.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Enums\\UserStatus.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Domain\\Enums\\UserStatus.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Enums\\UserStatus.cs",
-              "RelativeToolTip": "RenessansAPI.Domain\\Enums\\UserStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T08:54:12.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "SecurePasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Security\\SecurePasswordHasher.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Service\\Security\\SecurePasswordHasher.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Security\\SecurePasswordHasher.cs",
-              "RelativeToolTip": "RenessansAPI.Service\\Security\\SecurePasswordHasher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T09:27:41.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "HttpContextHelper.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Helpers\\HttpContextHelper.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Service\\Helpers\\HttpContextHelper.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Helpers\\HttpContextHelper.cs",
-              "RelativeToolTip": "RenessansAPI.Service\\Helpers\\HttpContextHelper.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T08:59:54.909Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "EnvironmentHelper.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Helpers\\EnvironmentHelper.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Service\\Helpers\\EnvironmentHelper.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Helpers\\EnvironmentHelper.cs",
-              "RelativeToolTip": "RenessansAPI.Service\\Helpers\\EnvironmentHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T08:59:11.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "HttpStatusCodeException.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Exceptions\\HttpStatusCodeException.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Service\\Exceptions\\HttpStatusCodeException.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Exceptions\\HttpStatusCodeException.cs",
-              "RelativeToolTip": "RenessansAPI.Service\\Exceptions\\HttpStatusCodeException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T08:57:40.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.DataAccess\\Repository\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.DataAccess\\Repository\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.DataAccess\\Repository\\GenericRepository.cs",
-              "RelativeToolTip": "RenessansAPI.DataAccess\\Repository\\GenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T09:33:49.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.DataAccess\\IRepository\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.DataAccess\\IRepository\\IGenericRepository.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.DataAccess\\IRepository\\IGenericRepository.cs",
-              "RelativeToolTip": "RenessansAPI.DataAccess\\IRepository\\IGenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T09:33:13.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Token.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Entities\\Auth\\Token.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Domain\\Entities\\Auth\\Token.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Entities\\Auth\\Token.cs",
-              "RelativeToolTip": "RenessansAPI.Domain\\Entities\\Auth\\Token.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T08:51:14.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Entities\\Auth\\Role.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Domain\\Entities\\Auth\\Role.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Entities\\Auth\\Role.cs",
-              "RelativeToolTip": "RenessansAPI.Domain\\Entities\\Auth\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T08:51:07.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Permission.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Entities\\Auth\\Permission.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Domain\\Entities\\Auth\\Permission.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Entities\\Auth\\Permission.cs",
-              "RelativeToolTip": "RenessansAPI.Domain\\Entities\\Auth\\Permission.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T08:50:59.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Entities\\Users\\User.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Domain\\Entities\\Users\\User.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Entities\\Users\\User.cs",
-              "RelativeToolTip": "RenessansAPI.Domain\\Entities\\Users\\User.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T08:52:31.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "EnumController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Controllers\\EnumController.cs",
-              "RelativeDocumentMoniker": "RenessansAPI\\Controllers\\EnumController.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Controllers\\EnumController.cs",
-              "RelativeToolTip": "RenessansAPI\\Controllers\\EnumController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T08:44:19.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "RenessansAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\appsettings.json",
-              "RelativeToolTip": "RenessansAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-28T08:59:23.179Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "RenessansAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "RenessansAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwEwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:56:45.53Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "RenessansAPI\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "RenessansAPI\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAB8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:58:40.958Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "RoleController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Controllers\\RoleController.cs",
-              "RelativeDocumentMoniker": "RenessansAPI\\Controllers\\RoleController.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Controllers\\RoleController.cs",
-              "RelativeToolTip": "RenessansAPI\\Controllers\\RoleController.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAIwFMAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T11:00:21.812Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "PermissionController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Controllers\\PermissionController.cs",
-              "RelativeDocumentMoniker": "RenessansAPI\\Controllers\\PermissionController.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Controllers\\PermissionController.cs",
-              "RelativeToolTip": "RenessansAPI\\Controllers\\PermissionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T11:01:52.2Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "ExceptionHandlerMiddleWare.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Middlewares\\ExceptionHandlerMiddleWare.cs",
-              "RelativeDocumentMoniker": "RenessansAPI\\Middlewares\\ExceptionHandlerMiddleWare.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Middlewares\\ExceptionHandlerMiddleWare.cs",
-              "RelativeToolTip": "RenessansAPI\\Middlewares\\ExceptionHandlerMiddleWare.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T09:29:10.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "ITokenService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\IService\\ITokenService.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Service\\IService\\ITokenService.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\IService\\ITokenService.cs",
-              "RelativeToolTip": "RenessansAPI.Service\\IService\\ITokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:42:37.06Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\IService\\IAuthService.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Service\\IService\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\IService\\IAuthService.cs",
-              "RelativeToolTip": "RenessansAPI.Service\\IService\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:36:12.878Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "TokenForViewDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\TokensDto\\TokenForViewDto.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\TokensDto\\TokenForViewDto.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\TokensDto\\TokenForViewDto.cs",
-              "RelativeToolTip": "RenessansAPI.Service\\DTOs\\TokensDto\\TokenForViewDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:38:03.223Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "TokenForUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\TokensDto\\TokenForUpdateDto.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\TokensDto\\TokenForUpdateDto.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\TokensDto\\TokenForUpdateDto.cs",
-              "RelativeToolTip": "RenessansAPI.Service\\DTOs\\TokensDto\\TokenForUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:37:43.753Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "TokenForCreationDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\TokensDto\\TokenForCreationDto.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\TokensDto\\TokenForCreationDto.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\TokensDto\\TokenForCreationDto.cs",
-              "RelativeToolTip": "RenessansAPI.Service\\DTOs\\TokensDto\\TokenForCreationDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:37:19.743Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "IRoleService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\IService\\IRoleService.cs",
-              "RelativeDocumentMoniker": "RenessansAPI.Service\\IService\\IRoleService.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\IService\\IRoleService.cs",
-              "RelativeToolTip": "RenessansAPI.Service\\IService\\IRoleService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:17:50.935Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\IService\\IUserService.cs",
               "RelativeDocumentMoniker": "RenessansAPI.Service\\IService\\IUserService.cs",
@@ -910,7 +344,608 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CampService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Service\\CampService.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\Service\\CampService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Service\\CampService.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\Service\\CampService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T13:27:54.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CampController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Controllers\\CampController.cs",
+              "RelativeDocumentMoniker": "RenessansAPI\\Controllers\\CampController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Controllers\\CampController.cs",
+              "RelativeToolTip": "RenessansAPI\\Controllers\\CampController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA5wBQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T14:03:45.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "RenessansAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\appsettings.json*",
+              "RelativeToolTip": "RenessansAPI\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-28T08:59:23.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20251110094344_InitialCreate3.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.DataAccess\\Migrations\\20251110094344_InitialCreate3.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.DataAccess\\Migrations\\20251110094344_InitialCreate3.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.DataAccess\\Migrations\\20251110094344_InitialCreate3.cs",
+              "RelativeToolTip": "RenessansAPI.DataAccess\\Migrations\\20251110094344_InitialCreate3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T09:43:44.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICampService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\IService\\ICampService.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\IService\\ICampService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\IService\\ICampService.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\IService\\ICampService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T13:23:03.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Service\\TokenService.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\Service\\TokenService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Service\\TokenService.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\Service\\TokenService.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAqwGAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:43:00.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DbSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Seeders\\DbSeeder.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\Seeders\\DbSeeder.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Seeders\\DbSeeder.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\Seeders\\DbSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:14:57.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ServiceExtension.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Extensions\\ServiceExtension.cs",
+              "RelativeDocumentMoniker": "RenessansAPI\\Extensions\\ServiceExtension.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Extensions\\ServiceExtension.cs",
+              "RelativeToolTip": "RenessansAPI\\Extensions\\ServiceExtension.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:16:27.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TokenValidationMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Middlewares\\TokenValidationMiddleware.cs",
+              "RelativeDocumentMoniker": "RenessansAPI\\Middlewares\\TokenValidationMiddleware.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Middlewares\\TokenValidationMiddleware.cs",
+              "RelativeToolTip": "RenessansAPI\\Middlewares\\TokenValidationMiddleware.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:30:33.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AbtCamp.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Entities\\News\\AboutCamps\\AbtCamp.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Domain\\Entities\\News\\AboutCamps\\AbtCamp.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Entities\\News\\AboutCamps\\AbtCamp.cs",
+              "RelativeToolTip": "RenessansAPI.Domain\\Entities\\News\\AboutCamps\\AbtCamp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T10:24:16.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MapConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Configurations\\MapConfiguration.cs",
+              "RelativeDocumentMoniker": "RenessansAPI\\Configurations\\MapConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Configurations\\MapConfiguration.cs",
+              "RelativeToolTip": "RenessansAPI\\Configurations\\MapConfiguration.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAQwDEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:25:57.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\Service\\AuthService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Service\\AuthService.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\Service\\AuthService.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAYwEQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:39:28.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "20251106141151_InitialCreate2.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.DataAccess\\Migrations\\20251106141151_InitialCreate2.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.DataAccess\\Migrations\\20251106141151_InitialCreate2.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.DataAccess\\Migrations\\20251106141151_InitialCreate2.cs",
+              "RelativeToolTip": "RenessansAPI.DataAccess\\Migrations\\20251106141151_InitialCreate2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T14:11:51.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Program.cs",
+              "RelativeDocumentMoniker": "RenessansAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Program.cs",
+              "RelativeToolTip": "RenessansAPI\\Program.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:02:45.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAAMKAAAAAAAAAAAwwIAJAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-11-06T13:57:06.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Service\\RoleService.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\Service\\RoleService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Service\\RoleService.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\Service\\RoleService.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAuwKEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:19:10.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PermissionService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Service\\PermissionService.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\Service\\PermissionService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Service\\PermissionService.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\Service\\PermissionService.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAmwEQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:20:26.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Auditable.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Common\\Auditable.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Domain\\Common\\Auditable.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Common\\Auditable.cs",
+              "RelativeToolTip": "RenessansAPI.Domain\\Common\\Auditable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T08:49:04.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CampForViewDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\NewsDto\\AboutCampsDto\\CampForViewDto.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\NewsDto\\AboutCampsDto\\CampForViewDto.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\NewsDto\\AboutCampsDto\\CampForViewDto.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\DTOs\\NewsDto\\AboutCampsDto\\CampForViewDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T13:19:19.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CampForUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\NewsDto\\AboutCampsDto\\CampForUpdateDto.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\NewsDto\\AboutCampsDto\\CampForUpdateDto.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\NewsDto\\AboutCampsDto\\CampForUpdateDto.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\DTOs\\NewsDto\\AboutCampsDto\\CampForUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T13:16:38.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CampForCreationDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\NewsDto\\AboutCampsDto\\CampForCreationDto.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\NewsDto\\AboutCampsDto\\CampForCreationDto.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\NewsDto\\AboutCampsDto\\CampForCreationDto.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\DTOs\\NewsDto\\AboutCampsDto\\CampForCreationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T13:16:08.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PermissionForViewDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\PermissionsDto\\PermissionForViewDto.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\PermissionsDto\\PermissionForViewDto.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\PermissionsDto\\PermissionForViewDto.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\DTOs\\PermissionsDto\\PermissionForViewDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T09:51:25.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PermissionForUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\PermissionsDto\\PermissionForUpdateDto.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\PermissionsDto\\PermissionForUpdateDto.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\PermissionsDto\\PermissionForUpdateDto.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\DTOs\\PermissionsDto\\PermissionForUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T09:48:32.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IPermissionService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\IService\\IPermissionService.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\IService\\IPermissionService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\IService\\IPermissionService.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\IService\\IPermissionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:17:12.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.DataAccess\\AppDBContexts\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.DataAccess\\AppDBContexts\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.DataAccess\\AppDBContexts\\AppDbContext.cs",
+              "RelativeToolTip": "RenessansAPI.DataAccess\\AppDBContexts\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T08:57:45.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PermissionForCreationDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\PermissionsDto\\PermissionForCreationDto.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\PermissionsDto\\PermissionForCreationDto.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\PermissionsDto\\PermissionForCreationDto.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\DTOs\\PermissionsDto\\PermissionForCreationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T09:48:03.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserStatus.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Enums\\UserStatus.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Domain\\Enums\\UserStatus.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Enums\\UserStatus.cs",
+              "RelativeToolTip": "RenessansAPI.Domain\\Enums\\UserStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T08:54:12.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SecurePasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Security\\SecurePasswordHasher.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\Security\\SecurePasswordHasher.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Security\\SecurePasswordHasher.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\Security\\SecurePasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T09:27:41.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "HttpContextHelper.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Helpers\\HttpContextHelper.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\Helpers\\HttpContextHelper.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Helpers\\HttpContextHelper.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\Helpers\\HttpContextHelper.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T08:59:54.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EnvironmentHelper.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Helpers\\EnvironmentHelper.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\Helpers\\EnvironmentHelper.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Helpers\\EnvironmentHelper.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\Helpers\\EnvironmentHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T08:59:11.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "HttpStatusCodeException.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Exceptions\\HttpStatusCodeException.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\Exceptions\\HttpStatusCodeException.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\Exceptions\\HttpStatusCodeException.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\Exceptions\\HttpStatusCodeException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T08:57:40.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.DataAccess\\Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.DataAccess\\Repository\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.DataAccess\\Repository\\GenericRepository.cs",
+              "RelativeToolTip": "RenessansAPI.DataAccess\\Repository\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:33:49.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.DataAccess\\IRepository\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.DataAccess\\IRepository\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.DataAccess\\IRepository\\IGenericRepository.cs",
+              "RelativeToolTip": "RenessansAPI.DataAccess\\IRepository\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:33:13.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Token.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Entities\\Auth\\Token.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Domain\\Entities\\Auth\\Token.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Entities\\Auth\\Token.cs",
+              "RelativeToolTip": "RenessansAPI.Domain\\Entities\\Auth\\Token.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T08:51:14.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Entities\\Auth\\Role.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Domain\\Entities\\Auth\\Role.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Entities\\Auth\\Role.cs",
+              "RelativeToolTip": "RenessansAPI.Domain\\Entities\\Auth\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T08:51:07.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Entities\\Auth\\Permission.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Domain\\Entities\\Auth\\Permission.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Entities\\Auth\\Permission.cs",
+              "RelativeToolTip": "RenessansAPI.Domain\\Entities\\Auth\\Permission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T08:50:59.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Entities\\Users\\User.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Domain\\Entities\\Users\\User.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Domain\\Entities\\Users\\User.cs",
+              "RelativeToolTip": "RenessansAPI.Domain\\Entities\\Users\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T08:52:31.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "EnumController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Controllers\\EnumController.cs",
+              "RelativeDocumentMoniker": "RenessansAPI\\Controllers\\EnumController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Controllers\\EnumController.cs",
+              "RelativeToolTip": "RenessansAPI\\Controllers\\EnumController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T08:44:19.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "RenessansAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "RenessansAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwEwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:56:45.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "RenessansAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "RenessansAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:58:40.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "RenessansAPI\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "RenessansAPI\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAIwFMAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T11:00:21.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "PermissionController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Controllers\\PermissionController.cs",
+              "RelativeDocumentMoniker": "RenessansAPI\\Controllers\\PermissionController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Controllers\\PermissionController.cs",
+              "RelativeToolTip": "RenessansAPI\\Controllers\\PermissionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T11:01:52.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ExceptionHandlerMiddleWare.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Middlewares\\ExceptionHandlerMiddleWare.cs",
+              "RelativeDocumentMoniker": "RenessansAPI\\Middlewares\\ExceptionHandlerMiddleWare.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI\\Middlewares\\ExceptionHandlerMiddleWare.cs",
+              "RelativeToolTip": "RenessansAPI\\Middlewares\\ExceptionHandlerMiddleWare.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:29:10.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\IService\\ITokenService.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\IService\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\IService\\ITokenService.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\IService\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:42:37.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\IService\\IAuthService.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\IService\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\IService\\IAuthService.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\IService\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:36:12.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "TokenForViewDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\TokensDto\\TokenForViewDto.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\TokensDto\\TokenForViewDto.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\TokensDto\\TokenForViewDto.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\DTOs\\TokensDto\\TokenForViewDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:38:03.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "TokenForUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\TokensDto\\TokenForUpdateDto.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\TokensDto\\TokenForUpdateDto.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\TokensDto\\TokenForUpdateDto.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\DTOs\\TokensDto\\TokenForUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:37:43.753Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 51,
+              "Title": "TokenForCreationDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\TokensDto\\TokenForCreationDto.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\TokensDto\\TokenForCreationDto.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\TokensDto\\TokenForCreationDto.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\DTOs\\TokensDto\\TokenForCreationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:37:19.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IRoleService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\IService\\IRoleService.cs",
+              "RelativeDocumentMoniker": "RenessansAPI.Service\\IService\\IRoleService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\IService\\IRoleService.cs",
+              "RelativeToolTip": "RenessansAPI.Service\\IService\\IRoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T10:17:50.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
               "Title": "RoleForViewGetDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\RolesDto\\RoleForViewGetDto.cs",
               "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\RolesDto\\RoleForViewGetDto.cs",
@@ -922,7 +957,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 55,
               "Title": "RoleForViewDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\RolesDto\\RoleForViewDto.cs",
               "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\RolesDto\\RoleForViewDto.cs",
@@ -934,7 +969,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 56,
               "Title": "RoleForUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\RolesDto\\RoleForUpdateDto.cs",
               "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\RolesDto\\RoleForUpdateDto.cs",
@@ -946,7 +981,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 53,
               "Title": "RoleForCreationDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\RolesDto\\RoleForCreationDto.cs",
               "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\RolesDto\\RoleForCreationDto.cs",
@@ -958,7 +993,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 59,
               "Title": "ChangePasswordDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\UsersDto\\ChangePasswordDto.cs",
               "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\UsersDto\\ChangePasswordDto.cs",
@@ -970,7 +1005,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 58,
               "Title": "UserForCreationDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\UsersDto\\UserForCreationDto.cs",
               "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\UsersDto\\UserForCreationDto.cs",
@@ -982,7 +1017,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 57,
               "Title": "UserForUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\UsersDto\\UserForUpdateDto.cs",
               "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\UsersDto\\UserForUpdateDto.cs",
@@ -994,7 +1029,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 60,
               "Title": "UserPasswordForUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\UsersDto\\UserPasswordForUpdateDto.cs",
               "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\UsersDto\\UserPasswordForUpdateDto.cs",
@@ -1006,7 +1041,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 61,
               "Title": "UserLoginDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\UsersDto\\UserLoginDto.cs",
               "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\UsersDto\\UserLoginDto.cs",
@@ -1018,7 +1053,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 62,
               "Title": "UserForViewDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.Service\\DTOs\\UsersDto\\UserForViewDto.cs",
               "RelativeDocumentMoniker": "RenessansAPI.Service\\DTOs\\UsersDto\\UserForViewDto.cs",
@@ -1030,7 +1065,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 63,
               "Title": "20251028092153_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\All\\All Programms\\CRUD\\ProProj\\Renessans\\backend\\RenessansAPI.DataAccess\\Migrations\\20251028092153_InitialCreate.cs",
               "RelativeDocumentMoniker": "RenessansAPI.DataAccess\\Migrations\\20251028092153_InitialCreate.cs",

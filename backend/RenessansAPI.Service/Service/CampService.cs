@@ -2,9 +2,11 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using RenessansAPI.DataAccess.IRepository;
+using RenessansAPI.Domain.Configurations;
 using RenessansAPI.Domain.Entities.News.AboutCamps;
 using RenessansAPI.Service.DTOs.NewsDto.AboutCampsDto;
 using RenessansAPI.Service.Exceptions;
+using RenessansAPI.Service.Extensions;
 using RenessansAPI.Service.Helpers;
 using RenessansAPI.Service.IService;
 using System.Linq.Expressions;
@@ -24,8 +26,10 @@ public class CampService : ICampService
         this.httpContextAccessor = httpContextAccessor;
     }
 
-    public async Task<IEnumerable<CampForViewDto>> GetAllAsync(
-        Expression<Func<AbtCamp, bool>> filter = null, string[] includes = null)
+    public async Task<PagedResult<CampForViewDto>> GetAllAsync(
+    PaginationParams @params,
+    Expression<Func<AbtCamp, bool>> filter = null,
+    string[] includes = null)
     {
         // Combine filter with IsDeleted = false
         Expression<Func<AbtCamp, bool>> finalFilter = x => !x.IsDeleted;
@@ -39,20 +43,38 @@ public class CampService : ICampService
             finalFilter = Expression.Lambda<Func<AbtCamp, bool>>(body, param);
         }
 
-        var camps = await repository.GetAll(finalFilter, includes).ToListAsync();
-        var result = mapper.Map<List<CampForViewDto>>(camps);
+        // Query from repository with pagination
+        var query = repository.GetAll(finalFilter, includes);
+        var pagedEntities = await query.ToPagedListAsync(@params);
 
-        foreach (var r in result)
+        // Map entities to DTOs
+        var mapped = mapper.Map<List<CampForViewDto>>(pagedEntities.Data)
+                           .OrderBy(x => x.Id)
+                           .ToList();
+
+        // Update image paths
+        foreach (var camp in mapped)
         {
-            if (!string.IsNullOrEmpty(r.ImagePath))
+            if (!string.IsNullOrEmpty(camp.ImagePath))
             {
-                r.ImagePath = $"{httpContextAccessor.HttpContext.Request.Scheme}://" +
-                              $"{httpContextAccessor.HttpContext.Request.Host}/{r.ImagePath}";
+                camp.ImagePath = $"{httpContextAccessor.HttpContext.Request.Scheme}://" +
+                                 $"{httpContextAccessor.HttpContext.Request.Host}/{camp.ImagePath}";
             }
         }
 
+        // Build paged result
+        PagedResult<CampForViewDto> result = new PagedResult<CampForViewDto>()
+        {
+            Data = mapped,
+            TotalItems = pagedEntities.TotalItems,
+            TotalPages = pagedEntities.TotalPages,
+            CurrentPage = pagedEntities.CurrentPage,
+            PageSize = pagedEntities.PageSize
+        };
+
         return result;
     }
+
 
     public async Task<CampForViewDto> GetAsync(Expression<Func<AbtCamp, bool>> filter, string[] includes = null)
     {
