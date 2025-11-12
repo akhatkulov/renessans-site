@@ -21,7 +21,8 @@ public class TokenValidationMiddleware
             "/api/auth/register",
             "/api/public/health",
             "/api/auth/refreshtoken",
-            "/api/camp"
+            "/api/camp",
+            "/api/courseEvent"
 
         };
 

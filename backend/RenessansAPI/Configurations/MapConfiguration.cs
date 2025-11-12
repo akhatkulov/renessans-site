@@ -1,8 +1,11 @@
 ﻿using AutoMapper;
 using RenessansAPI.Domain.Entities.Auth;
 using RenessansAPI.Domain.Entities.News.AboutCamps;
+using RenessansAPI.Domain.Entities.News.CoursesEvents;
 using RenessansAPI.Domain.Entities.Users;
 using RenessansAPI.Service.DTOs.NewsDto.AboutCampsDto;
+using RenessansAPI.Service.DTOs.NewsDto.CourseEventApplicationsDto;
+using RenessansAPI.Service.DTOs.NewsDto.CoursesEventsDto;
 using RenessansAPI.Service.DTOs.PermissionsDto;
 using RenessansAPI.Service.DTOs.RolesDto;
 using RenessansAPI.Service.DTOs.TokensDto;
@@ -45,9 +48,38 @@ public class MapConfiguration : Profile
         CreateMap<TokenForViewDto, Token>().ReverseMap();
 
         //AboutCamp
-        CreateMap<CampForCreationDto, AbtCamp>().ReverseMap();
-        CreateMap<CampForUpdateDto, AbtCamp>().ReverseMap();
-        CreateMap<CampForViewDto, AbtCamp>().ReverseMap();
+        // Create -> Entity
+        CreateMap<AbtCampForCreationDto, AbtCamp>()
+            .ForMember(dest => dest.ImagePath, opt => opt.Ignore()); // handled manually when uploading
+        // Update -> Entity
+        CreateMap<AbtCampForUpdateDto, AbtCamp>()
+            .ForMember(dest => dest.ImagePath, opt => opt.Ignore()); // handled manually in service
+        // Entity -> Admin View (all languages)
+        CreateMap<AbtCamp, AbtCampForAdminViewDto>();
+        // Entity -> Client View (filtered by language — mapping handled in service)
+        CreateMap<AbtCamp, AbtCampForClientViewDto>()
+            .ForMember(dest => dest.Title, opt => opt.Ignore())
+            .ForMember(dest => dest.Description, opt => opt.Ignore());
+
+        //CourseEvent
+        CreateMap<CourseEventForCreationDto, CourseEvent>().ReverseMap();
+        CreateMap<CourseEventForUpdateDto, CourseEvent>().ReverseMap();
+        CreateMap<CourseEvent, CourseEventForClientViewDto>()
+            .ForMember(dest => dest.Title, opt => opt.Ignore())
+            .ForMember(dest => dest.Description, opt => opt.Ignore());
+        CreateMap<CourseEvent, CourseEventForAdminViewDto>();   
+
+
+        //CourseEventApplication
+        CreateMap<CourseEventApplicationForCreationDto, CourseEventApplication>()
+            .ForMember(dest => dest.Id, opt => opt.Ignore())
+            .ForMember(dest => dest.IsHandled, opt => opt.Ignore())
+            .ForMember(dest => dest.HandledAt, opt => opt.Ignore())
+    .        ForMember(dest => dest.HandledBy, opt => opt.Ignore());
+
+        CreateMap<CourseEventApplication, CourseEventApplicationForViewDto>();
+        CreateMap<CourseEventApplication, CourseEventApplicationForAdminViewDto>()
+            .ForMember(dest => dest.EventTitle, opt => opt.MapFrom(src => src.CourseEvent.TitleEn)); // admin default title
 
     }
 }

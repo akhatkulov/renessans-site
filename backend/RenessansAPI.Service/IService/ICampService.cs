@@ -1,21 +1,29 @@
-﻿using RenessansAPI.Domain.Entities.News.AboutCamps;
+﻿using RenessansAPI.Domain.Configurations; // Add this using if PaginationParams is defined here
+using RenessansAPI.Domain.Entities.News.AboutCamps;
+using RenessansAPI.Domain.Enums;
 using RenessansAPI.Service.DTOs.NewsDto.AboutCampsDto;
-using System.Linq.Dynamic.Core;
-using System.Linq.Expressions;
 using RenessansAPI.Service.Helpers;
-using RenessansAPI.Domain.Configurations; // Add this using if PaginationParams is defined here
+using System.Linq.Expressions;
 
 namespace RenessansAPI.Service.IService;
 
 public interface ICampService
 {
-    Task<Domain.Configurations.PagedResult<CampForViewDto>> GetAllAsync(
-    PaginationParams @params,
-    Expression<Func<AbtCamp, bool>> filter = null,
-    string[] includes = null);
+    Task<AbtCampForAdminViewDto> CreateAsync(AbtCampForCreationDto dto);
+    Task<AbtCampForAdminViewDto> UpdateAsync(Guid id, AbtCampForUpdateDto dto);
+    Task<bool> DeleteAsync(Guid id);
 
-    Task<CampForViewDto> GetAsync(Expression<Func<AbtCamp, bool>> filter, string[] includes = null);
-    Task<CampForViewDto> CreateAsync(CampForCreationDto dto);
-    Task<CampForViewDto> UpdateAsync(Guid id, CampForUpdateDto dto);
-    Task<bool> DeleteAsync(Expression<Func<AbtCamp, bool>> filter);
+    Task<PagedResult<AbtCampForAdminViewDto>> GetAllForAdminAsync(
+        PaginationParams @params,
+        Expression<Func<AbtCamp, bool>> filter = null,
+        string[] includes = null);
+
+    Task<PagedResult<AbtCampForClientViewDto>> GetAllForClientAsync(
+        PaginationParams @params,
+        Language lang,
+        Expression<Func<AbtCamp, bool>> filter = null,
+        string[] includes = null);
+
+    Task<AbtCampForClientViewDto> GetByIdForClientAsync(Guid id, Language lang);
+    Task<AbtCampForAdminViewDto> GetByIdForAdminAsync(Guid id);
 }

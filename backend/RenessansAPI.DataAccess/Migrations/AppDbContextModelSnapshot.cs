@@ -188,8 +188,13 @@ namespace RenessansAPI.DataAccess.Migrations
                     b.Property<Guid?>("DeletedBy")
                         .HasColumnType("uuid");
 
-                    b.Property<string>("Description")
-                        .IsRequired()
+                    b.Property<string>("DescriptionEn")
+                        .HasColumnType("text");
+
+                    b.Property<string>("DescriptionRu")
+                        .HasColumnType("text");
+
+                    b.Property<string>("DescriptionUz")
                         .HasColumnType("text");
 
                     b.Property<string>("ImagePath")
@@ -198,7 +203,13 @@ namespace RenessansAPI.DataAccess.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("boolean");
 
-                    b.Property<string>("Title")
+                    b.Property<string>("TitleEn")
+                        .HasColumnType("text");
+
+                    b.Property<string>("TitleRu")
+                        .HasColumnType("text");
+
+                    b.Property<string>("TitleUz")
                         .HasColumnType("text");
 
                     b.Property<DateTime?>("UpdatedAt")
@@ -210,6 +221,127 @@ namespace RenessansAPI.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("AbtCamps");
+                });
+
+            modelBuilder.Entity("RenessansAPI.Domain.Entities.News.CoursesEvents.CourseEvent", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid?>("CreatedBy")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime?>("DeletedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid?>("DeletedBy")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("DescriptionEn")
+                        .HasColumnType("text");
+
+                    b.Property<string>("DescriptionRu")
+                        .HasColumnType("text");
+
+                    b.Property<string>("DescriptionUz")
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("EndDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("ImagePath")
+                        .HasColumnType("text");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("boolean");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("TitleEn")
+                        .HasColumnType("text");
+
+                    b.Property<string>("TitleRu")
+                        .HasColumnType("text");
+
+                    b.Property<string>("TitleUz")
+                        .HasColumnType("text");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid?>("UpdatedBy")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("CourseEvents");
+                });
+
+            modelBuilder.Entity("RenessansAPI.Domain.Entities.News.CoursesEvents.CourseEventApplication", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("AdminNote")
+                        .HasColumnType("text");
+
+                    b.Property<Guid>("CourseEventId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid?>("CreatedBy")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime?>("DeletedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid?>("DeletedBy")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("FullName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime?>("HandledAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid?>("HandledBy")
+                        .HasColumnType("uuid");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("boolean");
+
+                    b.Property<bool>("IsHandled")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("Note")
+                        .HasColumnType("text");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid?>("UpdatedBy")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CourseEventId");
+
+                    b.HasIndex("PhoneNumber");
+
+                    b.ToTable("CourseEventApplication");
                 });
 
             modelBuilder.Entity("RenessansAPI.Domain.Entities.Users.User", b =>
@@ -305,6 +437,17 @@ namespace RenessansAPI.DataAccess.Migrations
                     b.Navigation("Users");
                 });
 
+            modelBuilder.Entity("RenessansAPI.Domain.Entities.News.CoursesEvents.CourseEventApplication", b =>
+                {
+                    b.HasOne("RenessansAPI.Domain.Entities.News.CoursesEvents.CourseEvent", "CourseEvent")
+                        .WithMany("Applications")
+                        .HasForeignKey("CourseEventId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CourseEvent");
+                });
+
             modelBuilder.Entity("RenessansAPI.Domain.Entities.Users.User", b =>
                 {
                     b.HasOne("RenessansAPI.Domain.Entities.Auth.Role", "Roles")
@@ -319,6 +462,11 @@ namespace RenessansAPI.DataAccess.Migrations
             modelBuilder.Entity("RenessansAPI.Domain.Entities.Auth.Role", b =>
                 {
                     b.Navigation("Users");
+                });
+
+            modelBuilder.Entity("RenessansAPI.Domain.Entities.News.CoursesEvents.CourseEvent", b =>
+                {
+                    b.Navigation("Applications");
                 });
 #pragma warning restore 612, 618
         }
