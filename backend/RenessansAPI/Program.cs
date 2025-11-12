@@ -5,6 +5,7 @@ using RenessansAPI.DataAccess.AppDBContexts;
 using RenessansAPI.Extensions;
 using RenessansAPI.Middlewares;
 using RenessansAPI.Service.Helpers;
+using RenessansAPI.Service.Hubs;
 using RenessansAPI.Service.IService;
 using RenessansAPI.Service.Seeders;
 using Serilog;
@@ -17,8 +18,9 @@ var env = builder.Environment;
 
 // Services
 builder.Services.AddServices();
-builder.Services.AddAutoMapper(cfg => cfg.AddMaps(typeof(Program).Assembly));
+builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddHttpContextAccessor();
+builder.Services.AddSignalR();
 
 // Serilog
 var confLogger = new LoggerConfiguration()
@@ -101,6 +103,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.MapHub<AdminHub>("/hubs/admin");
 
 app.UseHttpsRedirection();
 
