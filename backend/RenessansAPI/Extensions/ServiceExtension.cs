@@ -26,6 +26,8 @@ public static class ServiceExtension
         services.AddScoped<ICampService, CampService>();
         services.AddScoped<ICourseEventService, CourseEventService>();
         services.AddScoped<ICourseEventApplicationService, CourseEventApplicationService>();
+        services.AddScoped<ITidingService, TidingService>();
+        services.AddScoped<IPossibilityService, PossibilityService>();
     }
 
     public static void AddJwtService(this IServiceCollection services, IConfiguration configuration)

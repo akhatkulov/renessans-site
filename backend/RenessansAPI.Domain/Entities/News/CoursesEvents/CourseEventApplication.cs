@@ -18,4 +18,6 @@ public class CourseEventApplication :Auditable
 
     // Optionally add AdminNote for internal comments
     public string? AdminNote { get; set; }
+
+    public string IpAddress { get; set; } = null!;
 }

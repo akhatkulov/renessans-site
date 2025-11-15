@@ -7,4 +7,7 @@ public class CourseEventApplicationForAdminViewDto : CourseEventApplicationForVi
     public DateTime? HandledAt { get; set; }
     public Guid? HandledBy { get; set; }
     public string? AdminNote { get; set; }
+
+    // admin uchun IP address
+    public string? IpAddress { get; set; }
 }

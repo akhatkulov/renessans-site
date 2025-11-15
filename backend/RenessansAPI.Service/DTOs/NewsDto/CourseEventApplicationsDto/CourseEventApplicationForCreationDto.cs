@@ -6,4 +6,7 @@ public class CourseEventApplicationForCreationDto
     public string FullName { get; set; } = null!;
     public string PhoneNumber { get; set; } = null!;
     public string? Note { get; set; }
+
+    // Optional, service orqali set qilinadi, userdan olinmaydi
+    public string? IpAddress { get; set; }
 }

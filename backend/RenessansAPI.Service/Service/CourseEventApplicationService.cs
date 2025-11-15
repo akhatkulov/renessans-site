@@ -42,57 +42,72 @@ public class CourseEventApplicationService : ICourseEventApplicationService
 
     public async Task<CourseEventApplicationForViewDto> CreateAsync(CourseEventApplicationForCreationDto dto, string requesterIp = null)
     {
-        // 1. Basic validation
         if (dto == null) throw new HttpStatusCodeException(400, "Invalid payload.");
         if (string.IsNullOrWhiteSpace(dto.FullName) || string.IsNullOrWhiteSpace(dto.PhoneNumber))
             throw new HttpStatusCodeException(400, "FullName and PhoneNumber are required.");
 
-        // 2. Verify event exists
+        // Event exists
         var ev = await _eventRepo.GetAsync(e => e.Id == dto.CourseEventId && !e.IsDeleted);
         if (ev == null) throw new HttpStatusCodeException(404, "Event not found.");
 
-        // 3. Normalize phone
-        var normalized = PhoneHelper.Normalize(dto.PhoneNumber);
-        if (!PhoneHelper.IsValidUzbekPhone(normalized))
-            throw new HttpStatusCodeException(400, "Phone number is not valid. Use Uzbekistan phone format.");
+        // Normalize & validate phone
+        var normalizedPhone = PhoneHelper.Normalize(dto.PhoneNumber);
+        if (!PhoneHelper.IsValidUzbekPhone(normalizedPhone))
+            throw new HttpStatusCodeException(400, "Phone number is not valid. Use Uzbekistan format: +998XXXXXXXXX");
 
-        // 4. Anti-spam: same phone to same event within 5 minutes
-        var recent = await _appRepo.GetAll(a => a.CourseEventId == dto.CourseEventId && a.PhoneNumber == normalized)
-                                   .OrderByDescending(a => a.CreatedAt)
-                                   .FirstOrDefaultAsync();
+        // Get user IP
+        var ip = requesterIp
+                 ?? _httpContextAccessor.HttpContext?.Request.Headers["X-Forwarded-For"].FirstOrDefault()
+                 ?? _httpContextAccessor.HttpContext?.Connection?.RemoteIpAddress?.ToString()
+                 ?? "unknown";
+
+        // Get all applications from this IP for this event
+        var ipApplications = await _appRepo.GetAll(a =>
+            a.CourseEventId == dto.CourseEventId &&
+            a.IpAddress == ip &&
+            !a.IsDeleted)
+            .OrderByDescending(a => a.CreatedAt)
+            .ToListAsync();
+
+        // 5-minutes anti-spam check
+        var recent = ipApplications.FirstOrDefault();
         if (recent != null && recent.CreatedAt.AddMinutes(5) > DateTime.UtcNow)
             throw new HttpStatusCodeException(429, "You already applied recently. Please wait a few minutes.");
 
-        // 5. Create entity
+        // Max 8 applications per IP per event
+        if (ipApplications.Count >= 8)
+            throw new HttpStatusCodeException(429, "You have reached the maximum number of applications for this event. Your device/IP is temporarily blocked.");
+
+        // Create entity
         var entity = new CourseEventApplication
         {
             CourseEventId = dto.CourseEventId,
             FullName = dto.FullName.Trim(),
-            PhoneNumber = normalized,
+            PhoneNumber = normalizedPhone,
             Note = dto.Note?.Trim(),
             CreatedAt = DateTime.UtcNow,
-            CreatedBy = null, // if auth -> set user id
+            IpAddress = ip,
             IsHandled = false
         };
 
         await _appRepo.CreateAsync(entity);
         await _appRepo.SaveChangesAsync();
 
-        // 6. Notify admins via SignalR
+        // SignalR notification
         try
         {
-            await _hub.Clients.Group("admins")
-                .SendAsync("NewCourseEventApplication", new
-                {
-                    ApplicationId = entity.Id,
-                    EventId = entity.CourseEventId,
-                    FullName = entity.FullName,
-                    PhoneNumber = entity.PhoneNumber,
-                    CreatedAt = entity.CreatedAt
-                });
+            await _hub.Clients.Group("admins").SendAsync("NewCourseEventApplication", new
+            {
+                ApplicationId = entity.Id,
+                EventId = entity.CourseEventId,
+                FullName = entity.FullName,
+                PhoneNumber = entity.PhoneNumber,
+                CreatedAt = entity.CreatedAt
+            });
         }
-        catch { /* do not fail on notification */ }
-        // 7. Optional: email to admin inbox
+        catch { }
+
+        // Optional email notification
         try
         {
             if (_emailService != null)
@@ -102,11 +117,9 @@ public class CourseEventApplicationService : ICourseEventApplicationService
                 await _emailService.SendAsync("admin@yourdomain.uz", subject, body);
             }
         }
-        catch { /* swallow email errors */ }
+        catch { }
 
-        // 8. Map and return
-        var dtoRes = _mapper.Map<CourseEventApplicationForViewDto>(entity);
-        return dtoRes;
+        return _mapper.Map<CourseEventApplicationForViewDto>(entity);
     }
 
 
@@ -165,8 +178,11 @@ public class CourseEventApplicationService : ICourseEventApplicationService
         _appRepo.Update(entity);
         await _appRepo.SaveChangesAsync();
 
-        // Optional: notify admin clients about update
-        await _hub.Clients.Group("admins").SendAsync("CourseEventApplicationHandled", new { ApplicationId = applicationId, HandledBy = adminUserId });
+        await _hub.Clients.Group("admins").SendAsync("CourseEventApplicationHandled", new
+        {
+            ApplicationId = applicationId,
+            HandledBy = adminUserId
+        });
 
         return true;
     }
