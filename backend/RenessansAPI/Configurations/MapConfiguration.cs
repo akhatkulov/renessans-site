@@ -3,11 +3,13 @@ using RenessansAPI.Domain.Entities.Auth;
 using RenessansAPI.Domain.Entities.News.AboutCamps;
 using RenessansAPI.Domain.Entities.News.CampPossiblities;
 using RenessansAPI.Domain.Entities.News.CoursesEvents;
+using RenessansAPI.Domain.Entities.News.OverallImages;
 using RenessansAPI.Domain.Entities.News.Tidings;
 using RenessansAPI.Domain.Entities.Users;
 using RenessansAPI.Service.DTOs.NewsDto.AboutCampsDto;
 using RenessansAPI.Service.DTOs.NewsDto.CourseEventApplicationsDto;
 using RenessansAPI.Service.DTOs.NewsDto.CoursesEventsDto;
+using RenessansAPI.Service.DTOs.NewsDto.ImagesDto;
 using RenessansAPI.Service.DTOs.NewsDto.PossibilitiesDto;
 using RenessansAPI.Service.DTOs.NewsDto.TidingsDto;
 using RenessansAPI.Service.DTOs.PermissionsDto;
@@ -102,6 +104,11 @@ public class MapConfiguration : Profile
             .ForMember(dest => dest.Briefly, opt => opt.Ignore())
             .ForMember(dest => dest.Description, opt => opt.Ignore());
         CreateMap<Possibilities, PossibilityForAdminViewDto>();
+
+        CreateMap<ImageForCreationDto, Images>().ReverseMap();
+        CreateMap<ImageForUpdateDto, Images>().ReverseMap();
+        CreateMap<Images, ImageForClientViewDto>();
+        CreateMap<Images, ImageForAdminViewDto>();
 
     }
 }
