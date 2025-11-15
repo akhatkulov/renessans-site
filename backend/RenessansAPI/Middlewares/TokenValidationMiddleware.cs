@@ -28,7 +28,9 @@ public class TokenValidationMiddleware
             "/api/tiding/public",
             "/api/tiding/public/{id}",
             "/api/possibility/public",
-            "/api/possibility/public/{id}"
+            "/api/possibility/public/{id}",
+            "/api/image/public",
+            "/api/image/public/{id}"
         };
 
         if (path.StartsWith("/images") || allowedPaths.Any(p => path.StartsWith(p)))

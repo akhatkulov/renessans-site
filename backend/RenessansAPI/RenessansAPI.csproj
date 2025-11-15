@@ -28,6 +28,7 @@
   <ItemGroup>
     <Folder Include="wwwroot\images\camps\" />
     <Folder Include="wwwroot\images\events\" />
+    <Folder Include="wwwroot\images\overallImages\" />
     <Folder Include="wwwroot\images\possibility\" />
     <Folder Include="wwwroot\images\news\" />
   </ItemGroup>
