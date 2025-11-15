@@ -1,7 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using RenessansAPI.Domain.Entities.Auth;
 using RenessansAPI.Domain.Entities.News.AboutCamps;
+using RenessansAPI.Domain.Entities.News.CampPossiblities;
 using RenessansAPI.Domain.Entities.News.CoursesEvents;
+using RenessansAPI.Domain.Entities.News.Tidings;
 using RenessansAPI.Domain.Entities.Users;
 
 namespace RenessansAPI.DataAccess.AppDBContexts;
@@ -22,6 +24,8 @@ public class AppDbContext : DbContext
     public virtual DbSet<AbtCamp> AbtCamps { get; set; }
     public virtual DbSet<CourseEvent> CourseEvents { get; set; }
     public virtual DbSet<CourseEventApplication> CourseEventApplication { get; set; }
+    public virtual DbSet<Tiding> Tidings { get; set; }
+    public virtual DbSet<Possibilities> Possibilities { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {

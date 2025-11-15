@@ -21,12 +21,17 @@ public class TokenValidationMiddleware
             "/api/auth/register",
             "/api/public/health",
             "/api/auth/refreshtoken",
-            "/api/camp",
-            "/api/courseEvent"
-
+            "/api/camp/public",
+            "/api/camp/public/{id}",
+            "/api/courseevent/public",
+            "/api/courseevent/public/{id}",
+            "/api/tiding/public",
+            "/api/tiding/public/{id}",
+            "/api/possibility/public",
+            "/api/possibility/public/{id}"
         };
 
-        if (allowedPaths.Contains(path))
+        if (path.StartsWith("/images") || allowedPaths.Any(p => path.StartsWith(p)))
         {
             await _next(context);
             return;

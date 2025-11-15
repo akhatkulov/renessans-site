@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using RenessansAPI.Domain.Configurations;
 using RenessansAPI.Domain.Entities.News.CoursesEvents;
 using RenessansAPI.Service.DTOs.NewsDto.CourseEventApplicationsDto;
+using RenessansAPI.Service.Exceptions;
 using RenessansAPI.Service.Helpers;
 using RenessansAPI.Service.IService;
 using System.Linq.Expressions;
@@ -14,20 +15,40 @@ namespace RenessansAPI.Controllers;
 public class CourseEventApplicationController : ControllerBase
 {
     private readonly ICourseEventApplicationService _service;
+    private readonly IHttpContextAccessor _httpContextAccessor;
 
-    public CourseEventApplicationController(ICourseEventApplicationService service)
+    public CourseEventApplicationController(ICourseEventApplicationService service,
+        IHttpContextAccessor httpContextAccessor)
     {
         _service = service;
+        _httpContextAccessor = httpContextAccessor;
     }
 
     // Public apply
     [HttpPost("apply")]
-    [AllowAnonymous]
     public async Task<IActionResult> Apply([FromBody] CourseEventApplicationForCreationDto dto)
     {
-        var ip = HttpContext.Connection.RemoteIpAddress?.ToString();
-        var res = await _service.CreateAsync(dto, ip);
-        return Ok(res);
+        if (dto == null)
+            return BadRequest("Invalid payload.");
+
+        // Get user IP automatically
+        var ip = _httpContextAccessor.HttpContext?.Request.Headers["X-Forwarded-For"].FirstOrDefault()
+                 ?? _httpContextAccessor.HttpContext?.Connection?.RemoteIpAddress?.ToString()
+                 ?? "unknown";
+
+        try
+        {
+            var result = await _service.CreateAsync(dto, ip);
+            return Ok(result); // returns CourseEventApplicationForViewDto
+        }
+        catch (HttpStatusCodeException ex)
+        {
+            return StatusCode(ex.Code, ex.Message);
+        }
+        catch (Exception)
+        {
+            return StatusCode(500, "Something went wrong. Please try again later.");
+        }
     }
 
     // Admin: get paged apps
