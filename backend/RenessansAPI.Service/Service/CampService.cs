@@ -295,7 +295,6 @@ public class CampService : ICampService
         return dto;
     }
 
-    // 🌐 Helper — Map AbtCamp to client DTO with language fallback
     private AbtCampForClientViewDto MapToClientView(AbtCamp e, Language lang)
     {
         string? title = lang switch
@@ -303,7 +302,7 @@ public class CampService : ICampService
             Language.Uzbek => e.TitleUz,
             Language.Russian => e.TitleRu,
             Language.English => e.TitleEn,
-            _ => e.TitleEn
+            _ => e.TitleUz
         };
 
         string? desc = lang switch
@@ -311,11 +310,12 @@ public class CampService : ICampService
             Language.Uzbek => e.DescriptionUz,
             Language.Russian => e.DescriptionRu,
             Language.English => e.DescriptionEn,
-            _ => e.DescriptionEn
+            _ => e.DescriptionUz
         };
 
-        title ??= e.TitleEn ?? e.TitleUz ?? e.TitleRu ?? string.Empty;
-        desc ??= e.DescriptionEn ?? e.DescriptionUz ?? e.DescriptionRu ?? string.Empty;
+        // 🔹 Fallback order: Uzbek -> Russian -> English
+        title ??= e.TitleUz ?? e.TitleRu ?? e.TitleEn ?? string.Empty;
+        desc ??= e.DescriptionUz ?? e.DescriptionRu ?? e.DescriptionEn ?? string.Empty;
 
         return new AbtCampForClientViewDto
         {
@@ -325,6 +325,7 @@ public class CampService : ICampService
             ImagePath = e.ImagePath
         };
     }
+
 
     // 🌍 Helper — Build absolute URL for image
     private string? MakeAbsoluteImageUrl(string? path)
