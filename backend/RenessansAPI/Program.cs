@@ -125,6 +125,8 @@ app.UseStaticFiles(new StaticFileOptions
     FileProvider = new PhysicalFileProvider(
         Path.Combine(app.Environment.WebRootPath, "images"))
 });
+app.UseMiddleware<LanguageMiddleware>();
+
 app.UseMiddleware<TokenValidationMiddleware>();
 
 app.UseAuthentication();

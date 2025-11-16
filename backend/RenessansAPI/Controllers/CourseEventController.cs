@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using RenessansAPI.Domain.Configurations;
 using RenessansAPI.Domain.Enums;
 using RenessansAPI.Service.DTOs.NewsDto.CoursesEventsDto;
+using RenessansAPI.Service.Extensions;
 using RenessansAPI.Service.IService;
 
 namespace RenessansAPI.Controllers;
@@ -28,23 +29,32 @@ public class CourseEventController : ControllerBase
     /// </summary>
     [HttpGet("public")]
     [AllowAnonymous]
-    public async Task<IActionResult> GetAllForClientAsync(
-        [FromQuery] PaginationParams @params,
-        [FromQuery] Language lang = Language.Uzbek)
+    public async Task<IActionResult> GetAllForClientAsync([FromQuery] PaginationParams @params, [FromQuery] string lang = null)
     {
-        var result = await service.GetAllForClientAsync(@params, lang);
+        // Query param > Middleware > Default
+        Language languageEnum = Language.Uzbek;
+
+        if (!string.IsNullOrWhiteSpace(lang))
+            languageEnum = lang.ToLanguageEnum();
+        else if (HttpContext.Items.TryGetValue("Language", out var headerLang) && headerLang is Language hl)
+            languageEnum = hl;
+
+        var result = await service.GetAllForClientAsync(@params, languageEnum);
         return Ok(result);
     }
 
-    /// <summary>
-    /// Get one course event by Id (client-side, single language)
-    /// Example: /api/CourseEvent/public/{id}?lang=Russian
-    /// </summary>
     [HttpGet("public/{id:guid}")]
     [AllowAnonymous]
-    public async Task<IActionResult> GetByIdForClientAsync(Guid id, [FromQuery] Language lang = Language.Uzbek)
+    public async Task<IActionResult> GetByIdForClientAsync(Guid id, [FromQuery] string lang = null)
     {
-        var result = await service.GetByIdForClientAsync(id, lang);
+        Language languageEnum = Language.Uzbek;
+
+        if (!string.IsNullOrWhiteSpace(lang))
+            languageEnum = lang.ToLanguageEnum();
+        else if (HttpContext.Items.TryGetValue("Language", out var headerLang) && headerLang is Language hl)
+            languageEnum = hl;
+
+        var result = await service.GetByIdForClientAsync(id, languageEnum);
         return Ok(result);
     }
 
