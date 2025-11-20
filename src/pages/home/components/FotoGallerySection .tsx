@@ -28,6 +28,7 @@ export const FotoGallerySection = memo(() => {
         <div className="mb-12">
           <h2 className="text-4xl font-bold text-foreground">
             {t("home.gallery.image")}
+            {/* test */}
           </h2>
           <p className="text-slate-600 mt-2">Explore our amazing moments</p>
         </div>
