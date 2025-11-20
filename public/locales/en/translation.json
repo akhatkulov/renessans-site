@@ -1,0 +1,102 @@
+{
+  "header": {
+    "navbar": {
+      "home": "Home",
+      "aboutUs": "About Us",
+      "competitionsAndEvents": "Competitions and Events",
+      "opportunities": "Opportunities",
+      "faq": "FAQ",
+      "news": "News",
+      "contacts": "Contacts"
+    }
+  },
+  "home": {
+    "about": {
+      "title": "About the Renessans Children's Camp",
+      "description": "The Renessans camp is a modern recreation and development center created for gifted children and employees of specialized educational institutions. Operating year-round, it offers a unique environment where children can both relax and learn new skills.",
+      "more": "Here, children are encouraged to live a healthy lifestyle and develop their creativity in areas such as technology, engineering, mathematics, art, and business. The camp also supports youth startups and prepares students for international olympiads and competitions, while providing equal opportunities for children with disabilities."
+    },
+    "gallery": {
+      "image": "Photo gallery"
+    },
+    "news": {
+      "title": "Latest News",
+      "all": "All News",
+      "items": [
+        {
+          "title": "News 1",
+          "description": "Description 1"
+        },
+        {
+          "title": "News 2",
+          "description": "Description 2"
+        },
+        {
+          "title": "News 3",
+          "description": "Description 3"
+        }
+      ]
+    },
+    "map": {
+      "title": "Our address"
+    }
+  },
+  "aboutUs": {
+    "content": {
+      "title": "About the Renessans Children's Camp",
+      "description": "The Renessans camp is a modern recreation and development center created for gifted children and employees of specialized educational institutions. Operating year-round, it offers a unique environment where children can both relax and learn new skills.",
+      "more": "Here, children are encouraged to live a healthy lifestyle and develop their creativity in areas such as technology, engineering, mathematics, art, and business. The camp also supports youth startups and prepares students for international olympiads and competitions, while providing equal opportunities for children with disabilities.",
+      "physicalEducation": "Physical and spiritual education of children, promoting healthy lifestyle.",
+      "intellectualDevelopment": "Strengthening intellectual potential: development in technology, mathematics, arts, and business.",
+      "youthStartups": "Supporting youth startups and projects, as well as entrepreneurship skills.",
+      "internationalCompetitions": "Intensive preparation for international olympiads and competitions.",
+      "disabilitySupport": "Providing equal opportunities for children with disabilities.",
+      "digitalMechanisms": "Implementing digital mechanisms through talent databases."
+    }
+  },
+  "opportunities": {
+    "techPrograms": {
+      "title": "Camp Technical Service Programs",
+      "description": "This direction combines creativity in design and architecture. The program aims to develop creative skills during the process of studying design and architectural design. Participants learn to work with various graphic editors and 3D modeling software, create innovative presentations, including using virtual reality technologies."
+    },
+    "tournament": {
+      "title": "Program Goal",
+      "description": "The tournament takes place in August within the specialized program, with 176 hockey players born in 2009 from six club championship teams of the Far East, Northwestern, Southern, and North Caucasian Federal Districts participating. These are players from the “Olympic Reserve Sports School No. 6”. Teams from Rostov region, Aksay city, 'Buffalos' from Krasnodar, 'Admiral 2009' from Vladivostok, 'Amur' from Khabarovsk, Severstal from Cherepovets, 'SKA Varangians 2009' from Leningrad region, and Morozov village."
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Are there winter shifts?",
+        "answer": "Yes, winter shifts are available starting from December."
+      },
+      {
+        "question": "What events are available at the camp?",
+        "answer": "The following programs are available:\n• Olympic team preparation\n• Mathematics, Physics\n• Computer Science\n• Biology, Chemistry\n• Sports\n• Creativity\n• Robotics\n• Olympiads\n• Digital generation"
+      },
+      {
+        "question": "Is food provided at the camp?",
+        "answer": "Three meals per day are provided, with snacks in the afternoon. The main advantage is the variety of our menu."
+      }
+    ]
+  },
+  "footer": {
+    "quickLinks": {
+      "title": "Pages",
+      "aboutUs": "About Us",
+      "competitionsAndEvents": "Competitions and Events",
+      "opportunities": "Opportunities",
+      "faq": "FAQ",
+      "news": "News",
+      "contacts": "Contacts"
+    },
+    "contact": {
+      "title": "Contacts",
+      "address": "Tashkent region, Bostanlyk district, Novobod mahalla, Yusufkhon street, house 338."
+    },
+    "privacy": {
+      "title": "Renaissance. All rights reserved."
+    }
+  }
+}

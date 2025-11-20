@@ -1,0 +1,93 @@
+{
+  "header": {
+    "navbar": {
+      "home": "Bosh sahifa",
+      "aboutUs": "Biz haqimizda",
+      "competitionsAndEvents": "Musobaqalar va tadbirlar",
+      "opportunities": "Imkoniyatlar",
+      "faq": "FAQ",
+      "news": "Yangiliklar",
+      "contacts": "Aloqa"
+    }
+  },
+  "home": {
+    "about": {
+      "title": "Renessans bolalar oromgohi haqida",
+      "description": "Renessans oromgohi — iqtidorli bolalar hamda ixtisoslashtirilgan ta’lim muassasalari xodimlari uchun yaratilgan zamonaviy dam olish va rivojlanish maskani. Oromgoh yil davomida faoliyat yuritadi va bu yerda bolalar nafaqat hordiq chiqaradilar, balki yangi bilim va ko‘nikmalarni ham o‘zlashtiradilar.",
+      "more": "Bu yerda sog‘lom turmush tarzi, ijodkorlik, texnologiya, muhandislik, matematika, san’at va biznes kabi yo‘nalishlarda bolalarning salohiyati rivojlantiriladi. Shuningdek, yoshlarning startap g‘oyalari qo‘llab-quvvatlanadi, xalqaro olimpiada va tanlovlarga tayyorlanish imkoniyati yaratiladi. Imkoniyati cheklangan yoshlar uchun ham teng sharoitlar ta’minlanadi."
+    },
+    "gallery": {
+      "image": "Fotogalereya"
+    },
+    "news": {
+      "title": "So'nggi yangiliklar",
+      "all": "Barcha yangiliklar",
+      "items": [
+        { "title": "Yangilik 1", "description": "Tavsif 1" },
+        { "title": "Yangilik 2", "description": "Tavsif 2" },
+        { "title": "Yangilik 3", "description": "Tavsif 3" }
+      ]
+    },
+    "map": {
+      "title": "Bizning manzil"
+    }
+  },
+  "aboutUs": {
+    "content": {
+      "title": "Renessans bolalar oromgohi haqida",
+      "description": "Renessans oromgohi — iqtidorli bolalar hamda ixtisoslashtirilgan ta’lim muassasalari xodimlari uchun yaratilgan zamonaviy dam olish va rivojlanish maskani. Oromgoh yil davomida faoliyat yuritadi va bu yerda bolalar nafaqat hordiq chiqaradilar, balki yangi bilim va ko‘nikmalarni ham o‘zlashtadilar.",
+      "more": "Bu yerda sog‘lom turmush tarzi, ijodkorlik, texnologiya, muhandislik, matematika, san’at va biznes kabi yo‘nalishlarda bolalarning salohiyati rivojlantiriladi. Shuningdek, yoshlarning startap g‘oyalari qo‘llab-quvvatlanadi, xalqaro olimpiada va tanlovlarga tayyorlanish imkoniyati yaratiladi. Imkoniyati cheklangan yoshlar uchun ham teng sharoitlar ta’minlanadi.",
+      "physicalEducation": "Bolalarni jismoniy va ruhiy tarbiyalash, sog‘lom turmush tarzini shakllantirish.",
+      "intellectualDevelopment": "Intellektual salohiyatni rivojlantirish: texnologiya, matematika, san’at va biznes sohalariga yo‘naltirish.",
+      "youthStartups": "Yoshlar startaplari va loyihalarini qo‘llab-quvvatlash, tadbirkorlik ko‘nikmalarini rivojlantirish.",
+      "internationalCompetitions": "Xalqaro olimpiadalar va tanlovlarga tayyorlash.",
+      "disabilitySupport": "Nogiron bolalar uchun teng imkoniyatlar yaratish.",
+      "digitalMechanisms": "Raqamli bazalar orqali iqtidorli bolalarni aniqlash va rivojlantirish."
+    }
+  },
+  "opportunities": {
+    "techPrograms": {
+      "title": "Oromgoh texnik xizmat dasturlari",
+      "description": "Ushbu yo'nalish dizayn va arxitektura sohasidagi ijodkorlikni birlashtiradi. Dastur dizayn va arxitektura dizaynini o'rganish jarayonida ijodiy qobiliyatlarni rivojlantirishni nazarda tutadi. Ishtirokchilar turli grafik muharrirlar va 3D modellashtirish dasturlarida ishlashni va innovatsion taqdimotlar yaratishni, jumladan virtual reallik texnologiyalaridan foydalanishni o‘rganadilar."
+    },
+    "tournament": {
+      "title": "Dasturning maqsadi",
+      "description": "Turnir avgust oyidagi ixtisoslashtirilgan dastur doirasida bo‘lib o‘tdi, unda 2009 yilda tug‘ilgan 176 nafar xokkeychi Uzoq Sharq, Shimoli-g‘arbiy, Janubiy va Shimoliy Kavkaz federal okruglarining oltita klub chempionati jamoasidan ishtirok etdi. Bular “6-son olimpiya zaxiralari sport maktabi” futbolchilari. Rostov viloyati, Aksay shahri, “Buffalos” jamoasi Krasnodardan, “Admiral 2009” Vladivostokdan, “Amur” Xabarovskdan, Severstal Cherepovetsdan, “SKA Varangians 2009” Leningrad viloyati, Morozov qishlog‘idan."
+    }
+  },
+  "faq": {
+    "title": "Ko‘p so‘raladigan savollar",
+    "items": [
+      {
+        "question": "Qishki smenalar mavjudmi?",
+        "answer": "Ha, qishki smenalar dekabr oyidan boshlab mavjud."
+      },
+      {
+        "question": "Lagerda qanday tadbirlar mavjud?",
+        "answer": "Quyidagi yo'nalishlar mavjud:\n• Olimpiya terma jamoasini tayyorlash\n• Matematika, fizika\n• Informatika\n• Biologiya, kimyo\n• Sport\n• Ijodkorlik\n• Robotexnika\n• Olimpiada\n• Raqamli avlod"
+      },
+      {
+        "question": "Lagerda ovqat bormi?",
+        "answer": "Lagerda kuniga uch marta ovqatlanish va tushdan keyin gazak mavjud. Va asosiy afzallik - bizning menyumizning xilma-xilligi."
+      }
+    ]
+  },
+  "footer": {
+    "quickLinks": {
+      "title": "Sahifalar",
+      "aboutUs": "Biz haqimizda",
+      "competitionsAndEvents": "Musobaqalar va tadbirlar",
+      "opportunities": "Imkoniyatlar",
+      "faq": "FAQ",
+      "news": "Yangiliklar",
+      "contacts": "Aloqa"
+    },
+    "contact": {
+      "title": "Kontaktlar",
+      "address": "Toshkent viloyati, Bo'stonliq tumani, Novobod mahallasi, Yusufxona ko'chasi, 338-uy."
+    },
+    "privacy": {
+      "title": "Renaissance Barcha huquqlar himoyalangan."
+    }
+  }
+}

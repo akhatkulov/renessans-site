@@ -1,0 +1,83 @@
+{
+  "en": {
+    "title": "Latest News",
+    "all": "All News",
+    "items": [
+      {
+        "id": "1",
+        "title": "News 1",
+        "description": "Short description 1",
+        "content": "Detailed content of News 1 in English.",
+        "img": "https://renessans.piima.uz/uploads/Yangiliklar/be968408383e.jpg"
+      },
+      {
+        "id": "2",
+        "title": "News 2",
+        "description": "Short description 2",
+        "content": "Detailed content of News 2 in English.",
+        "img": "https://renessans.piima.uz/uploads/Yangiliklar/24eeda07d74e.jpg"
+      },
+      {
+        "id": "3",
+        "title": "News 3",
+        "description": "Short description 3",
+        "content": "Detailed content of News 3 in English.",
+        "img": "https://renessans.piima.uz/uploads/Yangiliklar/9dcdbfcad992.jpg"
+      }
+    ]
+  },
+  "ru": {
+    "title": "Последние новости",
+    "all": "Все новости",
+    "items": [
+      {
+        "id": "1",
+        "title": "Новости 1",
+        "description": "Краткое описание 1",
+        "content": "Подробное содержание Новости 1 на русском.",
+        "img": "/images/news1.jpg"
+      },
+      {
+        "id": "2",
+        "title": "Новости 2",
+        "description": "Краткое описание 2",
+        "content": "Подробное содержание Новости 2 на русском.",
+        "img": "/images/news2.jpg"
+      },
+      {
+        "id": "3",
+        "title": "Новости 3",
+        "description": "Краткое описание 3",
+        "content": "Подробное содержание Новости 3 на русском.",
+        "img": "/images/news3.jpg"
+      }
+    ]
+  },
+  "uz": {
+    "title": "So'nggi yangiliklar",
+    "all": "Barcha yangiliklar",
+    "items": [
+      {
+        "id": "1",
+        "title": "Yangilik 1",
+        "description": "Qisqa tavsif 1",
+        "content": "Yangilik 1 ning batafsil mazmuni o‘zbek tilida.",
+        "img": "/images/news1.jpg"
+      },
+      {
+        "id": "2",
+        "title": "Yangilik 2",
+        "description": "Qisqa tavsif 2",
+        "content": "Yangilik 2 ning batafsil mazmuni o‘zbek tilida.",
+        "img": "/images/news2.jpg"
+      },
+      {
+        "id": "3",
+        "title": "Yangilik 3",
+        "description": "Qisqa tavsif 3",
+        "content": "Yangilik 3 ning batafsil mazmuni o‘zbek tilida.",
+        "img": "/images/news3.jpg"
+      }
+    ]
+  }
+}
