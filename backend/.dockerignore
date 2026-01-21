@@ -1,0 +1,29 @@
+# Build results
+bin/
+obj/
+out/
+publish/
+
+# NuGet cache and generated files
+**/project.assets.json
+**/project.nuget.cache
+**/*.nuget.dgspec.json
+**/*.nuget.g.props
+**/*.nuget.g.targets
+.nuget/
+packages/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.cache

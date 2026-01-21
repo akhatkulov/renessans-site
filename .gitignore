@@ -13,6 +13,9 @@
 
 # Visual Studio Code
 .vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
 
 # Rider IDE
 .idea/
@@ -30,6 +33,23 @@ artifacts/
 *.nuget.targets
 packages/
 
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+
+# User secrets (safe to commit structure, not values)
+secrets.json
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# Publish output
+publish/
+*.pubxml
+
 # Windows
 Thumbs.db
 ehthumbs.db
@@ -38,6 +58,28 @@ $RECYCLE.BIN/
 
 # macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.directory
+
+# Node.js (для frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+.next/
+out/
+build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
 
 # Others
 *.cache
@@ -47,5 +89,13 @@ $RECYCLE.BIN/
 *.swp
 *.dbmdl
 
-# Publish output
-publish/
+# Uploaded images (опционально - раскомментируйте если не нужны в git)
+# wwwroot/images/*
+# !wwwroot/images/.gitkeep
+
+# Archive files
+*.zip
+*.rar
+*.7z
+renessans-site-main/
+renessans-site-main.zip
